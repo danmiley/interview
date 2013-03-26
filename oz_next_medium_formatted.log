@@ -1,6 +1,6 @@
 [08/Mar/2013:04:02:03-800]	GET	/v1.0/version	HTTP/1.1	"200"	68	"-"	"ELB-HealthChecker/1.0"	126	0.004	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.004	68	-
 [08/Mar/2013:04:02:04-800]	GET	/v1.0/catalogs/88366ab89b0e4aa896cd88cdf72a43d5	HTTP/1.1	"200"	628	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1003	0.016	api.oznext.com	unix:/var/wi
-[08/Mar/2013:04:02:04-800]	GET	/v1.0/catalogs/88366ab89b0e4aa896cd88cdf72a43d5/users	HTTP/1.1	"200"	884	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1009	0.123	api.oznext.com	unix:/
+[08/Mar/2013:04:02:04-800]	GET	/v1.0/catalogs/88366ab89b0e4aa896cd88cdf72a43d5/users	HTTP/1.1	"400"	884	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1009	0.123	api.oznext.com	unix:/
 [08/Mar/2013:04:02:04-800]	GET	/v1.0/catalogs/88366ab89b0e4aa896cd88cdf72a43d5/updates?updated_since=2013-03-08T00%3A35%3A34.462632Z	HTTP/1.1	"200"	190	"-"	"Tornado-Cached(42;Apple;iPhone	Simu
 [08/Mar/2013:04:02:09-800]	GET	/v1.0/version	HTTP/1.1	"200"	68	"-"	"ELB-HealthChecker/1.0"	126	0.003	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.003	68	-
 [08/Mar/2013:04:02:13-800]	GET	/v1.0/catalogs/7187f7784d294f8f89888a3b453514d0	HTTP/1.1	"200"	467	"-"	"Revel/1.10	CFNetwork/609.1.4	Darwin/11.4.0"	1017	0.017	api.oznext.com	unix:/var/wizard/ps
@@ -55,7 +55,7 @@
 [08/Mar/2013:04:03:35-800]	GET	/v1.0/catalogs/88366ab89b0e4aa896cd88cdf72a43d5	HTTP/1.1	"200"	628	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1003	0.017	api.oznext.com	unix:/var/wi
 [08/Mar/2013:04:03:35-800]	GET	/v1.0/catalogs/88366ab89b0e4aa896cd88cdf72a43d5/users	HTTP/1.1	"500"	884	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1009	0.100	api.oznext.com	unix:/
 [08/Mar/2013:04:03:35-800]	GET	/v1.0/catalogs/88366ab89b0e4aa896cd88cdf72a43d5/updates?updated_since=2013-03-08T00%3A35%3A34.462632Z	HTTP/1.1	"200"	190	"-"	"Tornado-Cached(42;Apple;iPhone	Simu
-[08/Mar/2013:04:03:35-800]	GET	/v1.0/accounts/d5d34957bc804fa6816ea7d0603c2f72	HTTP/1.1	"200"	421	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1003	0.016	api.oznext.com	unix:/var/wi
+[08/Mar/2013:04:03:35-800]	GET	/v1.0/accounts/d5d34957bc804fa6816ea7d0603c2f72	HTTP/1.1	"501"	421	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1003	0.016	api.oznext.com	unix:/var/wi
 [08/Mar/2013:04:03:38-800]	GET	/v1.0/accounts/0af56c0e2b3a4e90b8b303b57ceba27a	HTTP/1.1	"200"	992	"-"	"Adobe%20Revel/1.10	CFNetwork/596.0.1	Darwin/12.0.0	(x86_64)	(Macmini5%2C1)"	1050	0.021	ap
 [08/Mar/2013:04:03:38-800]	GET	/v1.0/catalogs?role=user	HTTP/1.1	"200"	135	"-"	"Adobe%20Revel/1.10	CFNetwork/596.0.1	Darwin/12.0.0	(x86_64)	(Macmini5%2C1)"	1027	0.014	api.oznext.com	unix:/var/
 [08/Mar/2013:04:03:38-800]	GET	/v1.0/catalogs	HTTP/1.1	"200"	602	"-"	"Adobe%20Revel/1.10	CFNetwork/596.0.1	Darwin/12.0.0	(x86_64)	(Macmini5%2C1)"	1017	0.015	api.oznext.com	unix:/var/wizard/psc
@@ -215,7 +215,7 @@
 [08/Mar/2013:04:05:44-800]	PUT	/v1.0/catalogs/975947b231d76248ac5ac78bef2b4aaa/albums/73ecc4fc30266d4f86bba9f539365b39/assets/f0f77c1965bff7449e7988fe1d4f5f37	HTTP/1.1	"201"	0	"-"	"QE-Acceptan
 [08/Mar/2013:04:05:44-800]	PUT	/v1.0/catalogs/975947b231d76248ac5ac78bef2b4aaa/albums/ce520aaff1a1674adac900a4879ae20e	HTTP/1.1	"201"	0	"-"	"QE-Acceptance-Tests"	1137	0.027	api.oznext.com	unix
 [08/Mar/2013:04:05:45-800]	PUT	/v1.0/catalogs/975947b231d76248ac5ac78bef2b4aaa/assets/5bffd929ccd2ac401af944c7590c199f/revisions/a83cbeeaa7fa914c064ab1e0b8df4593	HTTP/1.1	"201"	0	"-"	"QE-Accep
-[08/Mar/2013:04:05:45-800]	GET	/v1.0/version	HTTP/1.1	"200"	68	"-"	"ELB-HealthChecker/1.0"	126	0.003	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.003	68	-
+[08/Mar/2013:04:05:45-800]	GET	/v1.0/version	HTTP/1.1	"400"	68	"-"	"ELB-HealthChecker/1.0"	126	0.003	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.003	68	-
 [08/Mar/2013:04:05:45-800]	PUT	/v1.0/catalogs/975947b231d76248ac5ac78bef2b4aaa/albums/ce520aaff1a1674adac900a4879ae20e/assets/5bffd929ccd2ac401af944c7590c199f	HTTP/1.1	"201"	0	"-"	"QE-Acceptan
 [08/Mar/2013:04:05:46-800]	PUT	/v1.0/catalogs/975947b231d76248ac5ac78bef2b4aaa/albums/fad80e4dae9d5f4f6d0bc2f024e80657	HTTP/1.1	"404"	0	"-"	"QE-Acceptance-Tests"	1137	0.030	api.oznext.com	unix
 [08/Mar/2013:04:05:47-800]	PUT	/v1.0/catalogs/975947b231d76248ac5ac78bef2b4aaa/assets/dc8fd8db57c45a44f71bada035d42868/revisions/7d91653e1d08a140a2bbe529cfb43203	HTTP/1.1	"201"	0	"-"	"QE-Accep
@@ -309,14 +309,14 @@
 [08/Mar/2013:04:07:09-800]	GET	/v1.0/version	HTTP/1.1	"200"	68	"-"	"ELB-HealthChecker/1.0"	126	0.052	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.052	68	-
 [08/Mar/2013:04:07:15-800]	GET	/v1.0/version	HTTP/1.1	"200"	68	"-"	"ELB-HealthChecker/1.0"	126	0.003	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.003	68	-
 [08/Mar/2013:04:07:21-800]	GET	/v1.0/version	HTTP/1.1	"200"	68	"-"	"ELB-HealthChecker/1.0"	126	0.003	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.003	68	-
-[08/Mar/2013:04:07:23-800]	GET	/v1.0/catalogs/7187f7784d294f8f89888a3b453514d0	HTTP/1.1	"200"	467	"-"	"Revel/1.10	CFNetwork/609.1.4	Darwin/11.4.0"	1017	0.016	api.oznext.com	unix:/var/wizard/ps
+[08/Mar/2013:04:07:23-800]	GET	/v1.0/catalogs/7187f7784d294f8f89888a3b453514d0	HTTP/1.1	"400"	467	"-"	"Revel/1.10	CFNetwork/609.1.4	Darwin/11.4.0"	1017	0.016	api.oznext.com	unix:/var/wizard/ps
 [08/Mar/2013:04:07:23-800]	GET	/v1.0/catalogs/7187f7784d294f8f89888a3b453514d0/users	HTTP/1.1	"200"	407	"-"	"Revel/1.10	CFNetwork/609.1.4	Darwin/11.4.0"	1023	0.021	api.oznext.com	unix:/var/wiz
 [08/Mar/2013:04:07:23-800]	GET	/v1.0/catalogs/7187f7784d294f8f89888a3b453514d0/updates?updated_since=2013-03-01T05%3A25%3A26.570887Z	HTTP/1.1	"200"	190	"-"	"Revel/1.10	CFNetwork/609.1.4	Darwin
 [08/Mar/2013:04:07:26-800]	GET	/v1.0/catalogs/1f481ad5f26d4d85ab546223da4fe498	HTTP/1.1	"200"	454	"-"	"Adobe%20Revel/1.10	CFNetwork/596.0.1	Darwin/12.0.0	(x86_64)	(Macmini5%2C1)"	1050	0.018	ap
 [08/Mar/2013:04:07:26-800]	GET	/v1.0/catalogs/1f481ad5f26d4d85ab546223da4fe498/users	HTTP/1.1	"200"	387	"-"	"Adobe%20Revel/1.10	CFNetwork/596.0.1	Darwin/12.0.0	(x86_64)	(Macmini5%2C1)"	1056	0.
 [08/Mar/2013:04:07:26-800]	GET	/v1.0/catalogs/1f481ad5f26d4d85ab546223da4fe498/updates?updated_since=2013-03-07T22%3A26%3A02.115345Z	HTTP/1.1	"200"	190	"-"	"Adobe%20Revel/1.10	CFNetwork/596.0.
 [08/Mar/2013:04:07:27-800]	GET	/v1.0/version	HTTP/1.1	"200"	68	"-"	"ELB-HealthChecker/1.0"	126	0.003	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.003	68	-
-[08/Mar/2013:04:07:30-800]	GET	/v1.0/accounts/e742d19696e37565da8011b6f36f1eae	HTTP/1.1	"200"	968	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1003	0.019	api.oznext.com	unix:/var/wi
+[08/Mar/2013:04:07:30-800]	GET	/v1.0/accounts/e742d19696e37565da8011b6f36f1eae	HTTP/1.1	"400"	968	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1003	0.019	api.oznext.com	unix:/var/wi
 [08/Mar/2013:04:07:33-800]	GET	/v1.0/version	HTTP/1.1	"200"	68	"-"	"ELB-HealthChecker/1.0"	126	0.004	10.249.20.248:80	unix:/var/wizard/pscom_oz/sockets/unicorn.sock/v1.0/version	200	0.004	68	-
 [08/Mar/2013:04:07:35-800]	GET	/v1.0/accounts/d5d34957bc804fa6816ea7d0603c2f72	HTTP/1.1	"200"	421	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1003	0.017	api.oznext.com	unix:/var/wi
 [08/Mar/2013:04:07:37-800]	GET	/v1.0/catalogs/88366ab89b0e4aa896cd88cdf72a43d5	HTTP/1.1	"200"	628	"-"	"Tornado-Cached(42;Apple;iPhone	Simulator;iOS;6.1)"	1003	0.018	api.oznext.com	unix:/var/wi
